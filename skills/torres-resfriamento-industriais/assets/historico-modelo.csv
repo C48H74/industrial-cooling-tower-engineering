@@ -1,0 +1,1 @@
+timestamp_iso,cell_id,hot_C,cold_C,wetbulb_C,drybulb_C,pressure_kPa,water_m3_h,speed_rpm,electric_kW,air_dp_Pa,makeup_m3_h,blowdown_m3_h,conductivity_makeup_uS_cm,conductivity_circulation_uS_cm,vibration_mm_s,event,data_quality

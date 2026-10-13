@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="530" viewBox="0 0 1000 530">
+<rect width="1000" height="530" fill="#f7fafc"/>
+<g font-family="Arial,sans-serif" fill="#172f43">
+<text x="40" y="35" font-size="21" font-weight="bold">Evolucao simulada de degradacao do enchimento</text>
+<text x="40" y="62" font-size="13">SIMULACAO PRELIMINAR — nao e curva garantida de fabricante</text>
+<path d="M95 390.00 H875" stroke="#dce5eb"/>
+<text x="85" y="394.00" text-anchor="end" font-size="12">3.91</text>
+<text x="95.00" y="412" text-anchor="middle" font-size="12">0</text>
+<path d="M95 332.00 H875" stroke="#dce5eb"/>
+<text x="85" y="336.00" text-anchor="end" font-size="12">4.17</text>
+<text x="251.00" y="412" text-anchor="middle" font-size="12">36</text>
+<path d="M95 274.00 H875" stroke="#dce5eb"/>
+<text x="85" y="278.00" text-anchor="end" font-size="12">4.44</text>
+<text x="407.00" y="412" text-anchor="middle" font-size="12">72</text>
+<path d="M95 216.00 H875" stroke="#dce5eb"/>
+<text x="85" y="220.00" text-anchor="end" font-size="12">4.71</text>
+<text x="563.00" y="412" text-anchor="middle" font-size="12">108</text>
+<path d="M95 158.00 H875" stroke="#dce5eb"/>
+<text x="85" y="162.00" text-anchor="end" font-size="12">4.97</text>
+<text x="719.00" y="412" text-anchor="middle" font-size="12">144</text>
+<path d="M95 100.00 H875" stroke="#dce5eb"/>
+<text x="85" y="104.00" text-anchor="end" font-size="12">5.24</text>
+<text x="875.00" y="412" text-anchor="middle" font-size="12">180</text>
+<path d="M95 100 V390 H875" fill="none" stroke="#172f43"/>
+<text x="485" y="440" text-anchor="middle">Tempo sintetico (dias)</text>
+<text transform="translate(22 250) rotate(-90)" text-anchor="middle">Approach (K)</text>
+<polyline points="95.00,370.00 121.00,362.95 147.00,355.83 173.00,348.63 199.00,341.35 225.00,333.99 251.00,326.55 277.00,319.02 303.00,311.42 329.00,303.72 355.00,295.95 381.00,288.08 407.00,280.12 433.00,272.08 459.00,263.94 485.00,255.71 511.00,247.39 537.00,238.97 563.00,230.45 589.00,221.83 615.00,213.11 641.00,204.29 667.00,195.37 693.00,186.34 719.00,177.20 745.00,167.95 771.00,158.59 797.00,149.12 823.00,139.53 849.00,129.82 875.00,120.00" fill="none" stroke="#007f8b" stroke-width="3"/>
+<text x="95" y="472" fill="#007f8b" font-size="13">Perda assumida de 25% Me</text>
+<text x="40" y="510" font-size="12">SIMULACAO: perda linear arbitraria; nao e previsao de vida nem historico medido</text>
+</g></svg>

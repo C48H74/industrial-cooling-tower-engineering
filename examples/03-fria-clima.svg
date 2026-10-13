@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="530" viewBox="0 0 1000 530">
+<rect width="1000" height="530" fill="#f7fafc"/>
+<g font-family="Arial,sans-serif" fill="#172f43">
+<text x="40" y="35" font-size="21" font-weight="bold">Resposta a variacao climatica — oferta fixa</text>
+<text x="40" y="62" font-size="13">SIMULACAO PRELIMINAR — nao e curva garantida de fabricante</text>
+<path d="M95 390.00 H875" stroke="#dce5eb"/>
+<text x="85" y="394.00" text-anchor="end" font-size="12">27.6</text>
+<text x="95.00" y="412" text-anchor="middle" font-size="12">20</text>
+<path d="M95 332.00 H875" stroke="#dce5eb"/>
+<text x="85" y="336.00" text-anchor="end" font-size="12">29</text>
+<text x="251.00" y="412" text-anchor="middle" font-size="12">22.2</text>
+<path d="M95 274.00 H875" stroke="#dce5eb"/>
+<text x="85" y="278.00" text-anchor="end" font-size="12">30.3</text>
+<text x="407.00" y="412" text-anchor="middle" font-size="12">24.4</text>
+<path d="M95 216.00 H875" stroke="#dce5eb"/>
+<text x="85" y="220.00" text-anchor="end" font-size="12">31.6</text>
+<text x="563.00" y="412" text-anchor="middle" font-size="12">26.6</text>
+<path d="M95 158.00 H875" stroke="#dce5eb"/>
+<text x="85" y="162.00" text-anchor="end" font-size="12">32.9</text>
+<text x="719.00" y="412" text-anchor="middle" font-size="12">28.8</text>
+<path d="M95 100.00 H875" stroke="#dce5eb"/>
+<text x="85" y="104.00" text-anchor="end" font-size="12">34.2</text>
+<text x="875.00" y="412" text-anchor="middle" font-size="12">31</text>
+<path d="M95 100 V390 H875" fill="none" stroke="#172f43"/>
+<text x="485" y="440" text-anchor="middle">TBU (C)</text>
+<text transform="translate(22 250) rotate(-90)" text-anchor="middle">Agua fria (C)</text>
+<polyline points="95.00,370.00 127.50,361.41 160.00,352.68 192.50,343.80 225.00,334.79 257.50,325.62 290.00,316.30 322.50,306.84 355.00,297.21 387.50,287.43 420.00,277.49 452.50,267.38 485.00,257.11 517.50,246.67 550.00,236.06 582.50,225.28 615.00,214.32 647.50,203.18 680.00,191.86 712.50,180.36 745.00,168.67 777.50,156.79 810.00,144.72 842.50,132.46 875.00,120.00" fill="none" stroke="#007f8b" stroke-width="3"/>
+<text x="95" y="472" fill="#007f8b" font-size="13">Me oferta fixo</text>
+<text x="40" y="510" font-size="12">Me calibrado no exemplo; G/L e T quente fixos; nao representa curva validada</text>
+</g></svg>

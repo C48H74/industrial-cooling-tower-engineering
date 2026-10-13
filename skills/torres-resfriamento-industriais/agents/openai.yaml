@@ -1,0 +1,4 @@
+interface:
+  display_name: "Torres de resfriamento industriais"
+  short_description: "Cálculos, normas e especificação de torres industriais"
+  default_prompt: "Use $torres-resfriamento-industriais para preparar um estudo preliminar rastreável e uma consulta técnica ao fabricante."

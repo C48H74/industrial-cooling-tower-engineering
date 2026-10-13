@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="530" viewBox="0 0 1000 530">
+<rect width="1000" height="530" fill="#f7fafc"/>
+<g font-family="Arial,sans-serif" fill="#172f43">
+<text x="40" y="35" font-size="21" font-weight="bold">Potencia de eixo versus rotacao relativa</text>
+<text x="40" y="62" font-size="13">SIMULACAO PRELIMINAR — nao e curva garantida de fabricante</text>
+<path d="M95 390.00 H875" stroke="#dce5eb"/>
+<text x="85" y="394.00" text-anchor="end" font-size="12">0.749</text>
+<text x="95.00" y="412" text-anchor="middle" font-size="12">0.5</text>
+<path d="M95 332.00 H875" stroke="#dce5eb"/>
+<text x="85" y="336.00" text-anchor="end" font-size="12">3.51</text>
+<text x="251.00" y="412" text-anchor="middle" font-size="12">0.6</text>
+<path d="M95 274.00 H875" stroke="#dce5eb"/>
+<text x="85" y="278.00" text-anchor="end" font-size="12">6.27</text>
+<text x="407.00" y="412" text-anchor="middle" font-size="12">0.7</text>
+<path d="M95 216.00 H875" stroke="#dce5eb"/>
+<text x="85" y="220.00" text-anchor="end" font-size="12">9.04</text>
+<text x="563.00" y="412" text-anchor="middle" font-size="12">0.8</text>
+<path d="M95 158.00 H875" stroke="#dce5eb"/>
+<text x="85" y="162.00" text-anchor="end" font-size="12">11.8</text>
+<text x="719.00" y="412" text-anchor="middle" font-size="12">0.9</text>
+<path d="M95 100.00 H875" stroke="#dce5eb"/>
+<text x="85" y="104.00" text-anchor="end" font-size="12">14.6</text>
+<text x="875.00" y="412" text-anchor="middle" font-size="12">1</text>
+<path d="M95 100 V390 H875" fill="none" stroke="#172f43"/>
+<text x="485" y="440" text-anchor="middle">N/Nref (-)</text>
+<text transform="translate(22 250) rotate(-90)" text-anchor="middle">Potencia eixo (kW)</text>
+<polyline points="95.00,370.00 126.20,365.54 157.40,360.72 188.60,355.54 219.80,349.97 251.00,344.00 282.20,337.62 313.40,330.82 344.60,323.57 375.80,315.88 407.00,307.71 438.20,299.07 469.40,289.94 500.60,280.29 531.80,270.13 563.00,259.43 594.20,248.18 625.40,236.37 656.60,223.98 687.80,211.01 719.00,197.43 750.20,183.23 781.40,168.40 812.60,152.93 843.80,136.80 875.00,120.00" fill="none" stroke="#007f8b" stroke-width="3"/>
+<text x="95" y="472" fill="#007f8b" font-size="13">Lei cubica ideal</text>
+<text x="40" y="510" font-size="12">Geometria, densidade e rendimento constantes; nao garante capacidade termica</text>
+</g></svg>

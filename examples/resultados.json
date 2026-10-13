@@ -1,0 +1,29 @@
+{
+  "status": "PRELIMINAR; sem selecao comercial",
+  "flow_m3_h": 30.0,
+  "hot_C": 42.0,
+  "cold_C": 32.0,
+  "wetbulb_C": 28.0,
+  "pressure_kPa": 101.325,
+  "range_K": 10.0,
+  "approach_K": 4.0,
+  "duty_kW": 348.33333333333337,
+  "L_kg_s": 8.333333333333334,
+  "G_dry_kg_s": 12.5,
+  "merkel_demand": 1.1475179856701572,
+  "evaporation_all_latent_m3_h": 0.5225000000000001,
+  "drift_m3_h": 0.00030000000000000003,
+  "blowdown_m3_h": 0.1738666666666667,
+  "makeup_m3_h": 0.6966666666666668,
+  "reference_fan_volume_m3_h": 37500,
+  "reference_fan_shaft_kW": 13.61111111111111,
+  "assumptions": [
+    "rho agua=1000 kg/m3",
+    "cp=4.18 kJ/kgK",
+    "h entrada aproximado por h saturado(TBU)",
+    "G/L assumido",
+    "volume ventilador 37500 m3/h fixo da referencia, nao derivado de G",
+    "hfg=2400 kJ/kg e calor totalmente latente",
+    "curvas evolucao sao sinteticas; oferta Me fixa apenas para demonstracao"
+  ]
+}

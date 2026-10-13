@@ -1,0 +1,29 @@
+<!doctype html><html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Torre — desempenho e evolucao</title><style>body{font:17px system-ui;background:#eaf0f4;color:#173047;margin:auto;max-width:1100px;padding:28px}section,header{background:white;border-radius:14px;padding:24px;margin:24px 0}img{width:100%;height:auto}a{color:#006978}.tag{color:#9d390b}pre{white-space:pre-wrap}</style><header><h1>Torre de resfriamento: calculos e curvas</h1><p class="tag">Estudo preliminar reproduzivel · Curvas simuladas · Sem garantia comercial</p><p>Q=348.33 kW · Range=10.00 K · Approach=4.00 K · Me=1.1475</p><p>As imagens de refinaria sao conceituais e nao representam necessariamente este equipamento de 30 m3/h.</p><a href="resultados.json">Resultados e hipoteses</a></header><section><h2>Carga termica versus vazao</h2><img src="01-carga-vazao.svg" alt="Carga termica versus vazao"><p>Range=10 K; rho=1000; cp=4.18</p><a href="01-carga-vazao.csv">Dados CSV</a> · <a href="01-carga-vazao.svg">Grafico vetorial</a></section><section><h2>Demanda Merkel versus approach</h2><img src="02-merkel-approach.svg" alt="Demanda Merkel versus approach"><p>T quente, TBU e G/L fixos; range varia; nao e curva de tamanho da torre</p><a href="02-merkel-approach.csv">Dados CSV</a> · <a href="02-merkel-approach.svg">Grafico vetorial</a></section><section><h2>Resposta a variacao climatica — oferta fixa</h2><img src="03-fria-clima.svg" alt="Resposta a variacao climatica — oferta fixa"><p>Me calibrado no exemplo; G/L e T quente fixos; nao representa curva validada</p><a href="03-fria-clima.csv">Dados CSV</a> · <a href="03-fria-clima.svg">Grafico vetorial</a></section><section><h2>Balanco de agua versus ciclos</h2><img src="04-agua-ciclos.svg" alt="Balanco de agua versus ciclos"><p>Calor totalmente latente; hfg=2400; sem vazamento; arraste constante</p><a href="04-agua-ciclos.csv">Dados CSV</a> · <a href="04-agua-ciclos.svg">Grafico vetorial</a></section><section><h2>Potencia de eixo versus rotacao relativa</h2><img src="05-ventilador-rotacao.svg" alt="Potencia de eixo versus rotacao relativa"><p>Geometria, densidade e rendimento constantes; nao garante capacidade termica</p><a href="05-ventilador-rotacao.csv">Dados CSV</a> · <a href="05-ventilador-rotacao.svg">Grafico vetorial</a></section><section><h2>Evolucao simulada de degradacao do enchimento</h2><img src="06-evolucao-sintetica.svg" alt="Evolucao simulada de degradacao do enchimento"><p>SIMULACAO: perda linear arbitraria; nao e previsao de vida nem historico medido</p><a href="06-evolucao-sintetica.csv">Dados CSV</a> · <a href="06-evolucao-sintetica.svg">Grafico vetorial</a></section><section><h2>Condicoes de reproducao</h2><pre>{
+  &quot;status&quot;: &quot;PRELIMINAR; sem selecao comercial&quot;,
+  &quot;flow_m3_h&quot;: 30.0,
+  &quot;hot_C&quot;: 42.0,
+  &quot;cold_C&quot;: 32.0,
+  &quot;wetbulb_C&quot;: 28.0,
+  &quot;pressure_kPa&quot;: 101.325,
+  &quot;range_K&quot;: 10.0,
+  &quot;approach_K&quot;: 4.0,
+  &quot;duty_kW&quot;: 348.33333333333337,
+  &quot;L_kg_s&quot;: 8.333333333333334,
+  &quot;G_dry_kg_s&quot;: 12.5,
+  &quot;merkel_demand&quot;: 1.1475179856701572,
+  &quot;evaporation_all_latent_m3_h&quot;: 0.5225000000000001,
+  &quot;drift_m3_h&quot;: 0.00030000000000000003,
+  &quot;blowdown_m3_h&quot;: 0.1738666666666667,
+  &quot;makeup_m3_h&quot;: 0.6966666666666668,
+  &quot;reference_fan_volume_m3_h&quot;: 37500,
+  &quot;reference_fan_shaft_kW&quot;: 13.61111111111111,
+  &quot;assumptions&quot;: [
+    &quot;rho agua=1000 kg/m3&quot;,
+    &quot;cp=4.18 kJ/kgK&quot;,
+    &quot;h entrada aproximado por h saturado(TBU)&quot;,
+    &quot;G/L assumido&quot;,
+    &quot;volume ventilador 37500 m3/h fixo da referencia, nao derivado de G&quot;,
+    &quot;hfg=2400 kJ/kg e calor totalmente latente&quot;,
+    &quot;curvas evolucao sao sinteticas; oferta Me fixa apenas para demonstracao&quot;
+  ]
+}</pre></section></html>
